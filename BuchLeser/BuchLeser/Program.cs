@@ -3,13 +3,13 @@
     static void Main(string[] args)
     {
         // Bücher erzeugen
-        Buch buch1 = new Buch("Schuld und Sühne - Fjodor Dostojewski");
-        Buch buch2 = new Buch("Der Fremde - Albert Camus");
-        Buch buch3 = new Buch("Frankenstein - Mary Shelley");
-        Buch buch4 = new Buch("Das Bildnis des Dorian Grey - Oscar Wilde");
-        Buch buch5 = new Buch("Die Verwandlung - Franz Kafka");
-        Buch buch6 = new Buch("Sturmhöhe - Emily Brontë");
-        Buch buch7 = new Buch("Die toten Seeln - Nikolai Gogol");
+        Buch buch1 = new Buch("Schuld und Sühne");
+        Buch buch2 = new Buch("Der Fremde");
+        Buch buch3 = new Buch("Frankenstein");
+        Buch buch4 = new Buch("Das Bildnis des Dorian Grey");
+        Buch buch5 = new Buch("Die Verwandlung");
+        Buch buch6 = new Buch("Sturmhöhe");
+        Buch buch7 = new Buch("Die toten Seeln");
 
         // Leser erzeugen 
         Leser leser1 = new Leser("Iva");
@@ -31,5 +31,8 @@
         leser2.ZeigGeleihteBuecher();
         leser3.ZeigGeleihteBuecher();
         leser4.ZeigGeleihteBuecher();
+
+        // damit sich das Terminal nicht direkt wieder schliesst (bruh)
+        Console.ReadLine();
     }
 }
