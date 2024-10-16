@@ -2,11 +2,12 @@ public class Notebook
 {
     public string BesitzerNotebook { get; set; }
     public int anzahlFestplatten;
-    private List<Festplatte> festplatten;
+    public List<Festplatte> festplatten;
 
     public Notebook(string besitzerNotebook)
     {
         BesitzerNotebook = besitzerNotebook;
+        festplatten = new List<Festplatte>();
     }
     
     public void AddFestplatte(Festplatte festplatte)
@@ -34,7 +35,7 @@ public class Notebook
 
     public void ShowFestplatten()
     {
-        Console.WriteLine($"Das Notebook von {BesitzerNotebook} hat {festplatten.Count} mit jeweils so viel Speicherplatz:");
+        Console.WriteLine($"\r\nDas Notebook von {BesitzerNotebook} hat {festplatten.Count} mit jeweils so viel Speicherplatz:");
         foreach (var festplatte in festplatten)
         {
             Console.WriteLine($"- {festplatte.Modell} mit {festplatte.Speicherplatz} GB");

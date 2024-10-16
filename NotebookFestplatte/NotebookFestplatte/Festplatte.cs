@@ -8,6 +8,5 @@ public class Festplatte
     {
         Modell = modell;
         Speicherplatz = speicherplatz;
-
     }
 }
