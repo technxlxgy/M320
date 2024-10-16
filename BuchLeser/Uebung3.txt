@@ -1,0 +1,9 @@
+Übung 3:
+Ein Kunde kann mehrere Bücher auslehnen,
+doch die Bücher kennen ihre Leser nicht.
+
+UML:
+
++-------+    leiht>    +------+
+| Kunde |------------->| Buch |
++-------+ 0..1    0..* +------+
