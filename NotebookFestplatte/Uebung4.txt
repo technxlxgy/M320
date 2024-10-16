@@ -1,0 +1,8 @@
+Übung 4 (Aggregation):
+Aggregation < >
+
+UML:
+             
++----------+                 +------------+
+| Notebook |< >------------->| Festplatte |
++----------+ 0..1       1..3 +------------+

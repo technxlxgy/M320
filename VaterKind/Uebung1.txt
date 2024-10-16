@@ -1,4 +1,4 @@
-Übung 1:
+Übung 1 (bindirektionale Navigierbarkeit binärer Assoziationen):
 Ein Kind kennt seinen Vater und der Vater auch sein Kind.
 Ein Vater hat max. ein Kind und ein Kind kann einen Vater haben.
 

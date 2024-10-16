@@ -1,4 +1,4 @@
-Übung 3:
+Übung 3 (binäre Assoziation):
 Ein Kunde kann mehrere Bücher auslehnen,
 doch die Bücher kennen ihre Leser nicht.
 
