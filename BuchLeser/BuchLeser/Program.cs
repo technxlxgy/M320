@@ -9,7 +9,7 @@
         Buch buch4 = new Buch("Das Bildnis des Dorian Grey");
         Buch buch5 = new Buch("Die Verwandlung");
         Buch buch6 = new Buch("Sturmhöhe");
-        Buch buch7 = new Buch("Die toten Seeln");
+        Buch buch7 = new Buch("Die toten Seelen");
 
         // Leser erzeugen 
         Leser leser1 = new Leser("Iva");
