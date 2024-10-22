@@ -1,0 +1,9 @@
+Übung 5 (Aggregation):
+In einer Firma arbeiten beliebig viele Mitarbeiter.
+Die Mitarbeiter können bei beliebig vielen Firmen arbeiten.
+
+UML:
+
++-------+                   +-------------+
+| Firma |< >--------------->| Mitarbeiter |
++-------+ 0..*         0..* +-------------+
