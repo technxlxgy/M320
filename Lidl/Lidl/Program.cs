@@ -13,6 +13,6 @@ public class Program
         kunde1.Esse();
         lagerist1.Esse();
         kunde1.KaufeEin();
-        lagerist1 .LagerEin();
+        lagerist1.LagerEin();
     }
 }
